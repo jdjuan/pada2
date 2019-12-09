@@ -7,7 +7,7 @@
 - The user can expand each section to see an example
 - **Further**
   - Allow the user to interact with the website. Liking it with hearts
-- An option to provide feedback
+  - An option to provide feedback
 
 ## Routes
 
@@ -19,9 +19,9 @@
 
 ## Components
 
-- Title Label
-- Intro Card
-- Section Card
-- Simple Card
+- Title Label: P.A.D.A
+- Intro Card: Title, siglas, subtitle, and description
+- Section Card [each]
+- Simple Card [example]
 - Button
 - Credits [popup]

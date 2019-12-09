@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+
+$alpha: #fb3b64;
+$omega: #00357b;
+$beta: #000810;
+$delta: #071828;
+$gamma: #ffffff;
+$teta: #22303e;
+
+body {
+  color: $gamma;
+  background-image: radial-gradient($teta 15%, transparent 15%);
+  background-color: $delta;
+  background-position: 0 0, 50px 50px;
+  background-size: 30px 30px;
+}
