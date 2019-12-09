@@ -1,27 +1,27 @@
-# Pada2
+# Pada
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.19.
+## Use Cases
 
-## Development server
+- The user can click a button to copy in the clipboard
+- The user can read the title and description of each section of PADA
+- The user can expand each section to see an example
+- **Further**
+  - Allow the user to interact with the website. Liking it with hearts
+- An option to provide feedback
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Routes
 
-## Code scaffolding
+- No routes, all rendered in the `/` page
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Modules
 
-## Build
+- No need since there are no routes, and there aren't many components
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Components
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- Title Label
+- Intro Card
+- Section Card
+- Simple Card
+- Button
+- Credits [popup]
