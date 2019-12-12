@@ -2,6 +2,7 @@
 
 $alpha: #fb3b64;
 $omega: #00357b;
+$epsilon: #032d63;
 $beta: #000810;
 $delta: #071828;
 $gamma: #ffffff;
@@ -13,4 +14,12 @@ body {
   background-color: $delta;
   background-position: 0 0, 50px 50px;
   background-size: 30px 30px;
+}
+
+p {
+  margin: 0;
+}
+
+.center-content {
+  text-align: center;
 }

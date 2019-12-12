@@ -1,0 +1,25 @@
+@import "~src/styles";
+
+:host {
+}
+
+div {
+  margin-left: 14px;
+  font-size: 14px;
+  padding: 1rem;
+}
+
+.primary-section {
+  border-left: 10px solid $alpha;
+  background-color: $omega;
+  .title {
+    font-size: 1.5rem;
+  }
+  .subtitle {
+  }
+}
+.secondary-section {
+  background-color: $epsilon;
+  .description {
+  }
+}
