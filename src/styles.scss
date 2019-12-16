@@ -1,6 +1,5 @@
-/* You can add global styles to this file, and also import other style files */
-
 $alpha: #fb3b64;
+$phi: #9c1957;
 $omega: #00357b;
 $epsilon: #032d63;
 $beta: #000810;
@@ -8,12 +7,18 @@ $delta: #071828;
 $gamma: #ffffff;
 $teta: #22303e;
 
+@font-face {
+  font-family: "OCR-A-Std";
+  src: url("/assets/ocr-a-std-regular.ttf") format("truetype");
+}
+
 body {
   color: $gamma;
   background-image: radial-gradient($teta 15%, transparent 15%);
   background-color: $delta;
   background-position: 0 0, 50px 50px;
   background-size: 30px 30px;
+  font-family: "Poppins", sans-serif;
 }
 
 p {

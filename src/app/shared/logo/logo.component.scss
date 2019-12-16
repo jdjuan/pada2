@@ -1,0 +1,13 @@
+@import "~src/styles";
+
+h1 {
+  margin: 0;
+  font-family: "OCR-A-Std";
+  font-size: 6rem;
+  font-weight: unset;
+  letter-spacing: -31px;
+  // text-shadow: 5px 5px 1px black;
+  background: -webkit-linear-gradient(left, $phi, $alpha);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
