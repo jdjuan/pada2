@@ -1,7 +1,7 @@
 @import "~src/styles";
 
 div {
-  margin-left: 14px;
+  margin-left: 9px;
   font-size: 14px;
   padding: 1rem;
 }
@@ -9,6 +9,7 @@ div {
 .primary-section {
   border-left: 10px solid $alpha;
   background-color: $omega;
+  box-shadow: 0px 4px 10px black;
   .title {
     font-size: 1.5rem;
   }
@@ -17,6 +18,8 @@ div {
 }
 .secondary-section {
   background-color: $epsilon;
+  position: relative;
+  z-index: -1;
   .description {
   }
 }

@@ -2,12 +2,18 @@
 
 h1 {
   margin: 0;
+  height: 5rem;
   font-family: "OCR-A-Std";
-  font-size: 6rem;
+  font-size: 5.8rem;
   font-weight: unset;
   letter-spacing: -31px;
-  // text-shadow: 5px 5px 1px black;
   background: -webkit-linear-gradient(left, $phi, $alpha);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  .inner {
+    position: absolute;
+    top: 33px;
+    z-index: -1;
+    text-shadow: 8px 8px 4px black;
+  }
 }
